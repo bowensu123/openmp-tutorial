@@ -3,8 +3,7 @@
 // main OpenMP include header
 #include <omp.h>
 
-int
-main()
+int main()
 {
 	// omp_get_max_threads() and many other functions are declared in omp.h
 	std::cout << "OpenMP will use " << omp_get_max_threads() <<
